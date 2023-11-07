@@ -31,4 +31,4 @@ def calculator(a, b, operation):
     else:
         raise ValueError("Invalid operation")
 
-calculator(8, 2, "+")
+print(calculator(8, 2, "+"))
